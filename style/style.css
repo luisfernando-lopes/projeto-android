@@ -155,11 +155,12 @@ div.video{
 }
 
 div.video > iframe{
+    max-width: 750px;
+    max-height: 450px;
     position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 aside{
